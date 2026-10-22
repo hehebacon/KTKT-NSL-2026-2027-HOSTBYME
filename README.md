@@ -14,7 +14,7 @@
 3. **Giai đoạn C — thử nghiệm có giám sát:** kiểm tra từng chức năng khi robot được đỡ/cố định, sau đó mới thử di chuyển không tải và tăng tải theo từng bước. Người lớn/giáo viên phụ trách phải duyệt an toàn.
 
 ## Hiện có
-- State machine và giao diện serial chẩn đoán.
+- State sequence mô phỏng tối giản và giao diện serial chẩn đoán.
 - Cấu hình kích thước/tải ở mức mục tiêu.
 - Tài liệu yêu cầu và trình tự nhặt–khóa tải.
 
@@ -29,10 +29,10 @@
 - `status` — trạng thái hiện tại
 - `selftest` — kiểm tra logic nội bộ không điều khiển phần cứng
 - `arm` / `disarm` — chỉ đổi cờ logic mô phỏng; không kích hoạt motor
-- `abort` — yêu cầu về trạng thái dừng
+- `abort` — ghi nhận yêu cầu dừng trong phần mềm; không thay thế nút dừng khẩn cấp phần cứng
 
 ## Build
-Khung dùng PlatformIO/Arduino framework. Board trong `platformio.ini` chỉ là cấu hình tạm; phải thay bằng đúng board đã chọn trước khi coi kết quả build là có ý nghĩa.
+Khung dùng PlatformIO/Arduino framework. `esp32dev` là mục tiêu build tạm để kiểm tra compile, chưa phải lựa chọn bo mạch đã xác nhận.
 
 ## Tài liệu kỹ thuật
 - [Kiến trúc mô-đun và quy tắc an toàn](docs/ARCHITECTURE.md)
