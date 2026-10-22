@@ -4,7 +4,7 @@
 Chỉ xác nhận các tệp source/tài liệu tồn tại trên GitHub. Chưa có bằng chứng biên dịch thành công, chưa nạp lên bo, chưa kiểm tra điện, chưa chuyển động, chưa thử tải. Các bước bên dưới là kế hoạch tương lai.
 
 ## Giai đoạn 0 — xác nhận đề bài
-- Lấy quy chế chính thức, kích thước giới hạn, bề mặt thi, vật mẫu và cách chấm.
+- Lấy quy chế chính thức, xác nhận cách đo giới hạn 28 × 28 × 28 cm, bề mặt thi, vật mẫu và cách chấm.
 - Xác nhận 500 g là tải hữu ích hay tổng tải; hiện đang hiểu là tải hữu ích.
 - Chốt kích thước/khối lượng vật mẫu tối thiểu và tối đa nếu ban tổ chức có quy định.
 
@@ -18,7 +18,7 @@ Chỉ xác nhận các tệp source/tài liệu tồn tại trên GitHub. Chưa 
 - [ ] `demo` kết thúc ở FAULT vì chưa có cảm biến thật; không được ghi nhận là đã gắp thành công.
 
 ## Giai đoạn 2 — rà soát cơ khí/điện (chưa cấp nguồn actuator)
-- [ ] Kiểm tra kích thước tổng thể theo quy chế.
+- [ ] Kiểm tra toàn bộ robot (thân, chân, đầu gắp và vật/giá đỡ nếu quy chế tính vào kích thước) không vượt 28 × 28 × 28 cm ở cấu hình thi đấu.
 - [ ] Rà soát điểm kẹp, dây vướng, cố định nguồn và khả năng ngắt nguồn.
 - [ ] Kiểm tra cực tính, đầu nối, định mức dòng/điện áp bằng tài liệu linh kiện.
 - [ ] Giáo viên/người lớn có kinh nghiệm duyệt sơ đồ và cách thử trước khi cấp nguồn.
