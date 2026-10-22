@@ -12,10 +12,10 @@ Chỉ xác nhận các tệp source/tài liệu tồn tại trên GitHub. Chưa 
 - [ ] Build trên đúng môi trường và board mục tiêu.
 - [ ] `help`, `status`, `selftest` trả về đúng.
 - [ ] Lệnh không hợp lệ không thay đổi trạng thái nhiệm vụ.
-- [ ] Lệnh quá dài được loại bỏ, không làm tràn bộ đệm.
+- [ ] Lệnh quá dài bị loại bỏ toàn bộ đến ký tự xuống dòng, không thực thi phần đuôi.
 - [ ] `arm` bị từ chối khi đầu ra phần cứng còn vô hiệu hóa.
-- [ ] `abort` đưa state về FAULT và tắt cờ logic.
-- [ ] `demo` kết thúc ở FAULT vì chưa có cảm biến thật; không được ghi nhận là đã gắp thành công.
+- [ ] `abort` đưa state về FAULT và ghi rõ đây không phải nút dừng khẩn cấp vật lý.
+- [ ] `demo` kết thúc ở FAULT vì chưa có cảm biến thật; không được ghi nhận là đã gắp thành công.\n- [ ] Lệnh có khoảng trắng đầu/cuối và chữ hoa được chuẩn hóa đúng.
 
 ## Giai đoạn 2 — rà soát cơ khí/điện (chưa cấp nguồn actuator)
 - [ ] Kiểm tra toàn bộ robot (thân, chân, đầu gắp và vật/giá đỡ nếu quy chế tính vào kích thước) không vượt 28 × 28 × 28 cm ở cấu hình thi đấu.
