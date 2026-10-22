@@ -17,4 +17,4 @@ This is a software/behavior specification, not a validated mechanical design.
 - No transition to CARRY unless both payload-present and lock-confirmed signals are valid.
 - Unknown or disconnected sensor values count as failure, not success.
 - Timeout, unexpected body tilt, overload indication or abort request stops the sequence.
-- The current code uses simulated transitions only. It does not read real sensors or actuate the mechanism.
+- The current code uses simulated transitions only. It does not read real sensors or actuate the mechanism. `demo` always ends in a sensor fault; it does not simulate a successful carry.
