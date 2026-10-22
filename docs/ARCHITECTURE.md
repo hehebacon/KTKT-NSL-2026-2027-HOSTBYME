@@ -1,9 +1,10 @@
 # Kiến trúc đề xuất — robot tải 500 g
 
 ## Quyết định thiết kế hiện tại
-- Robot bốn chân là giả định dự án đang dùng; cần xác nhận với đề bài chính thức.
+- Robot bốn chân đã được người dùng xác nhận.
+- Kích thước giới hạn được cung cấp: 28 × 28 × 28 cm cho toàn bộ robot; cần xác minh quy chế đo ở tư thế hoạt động hay tư thế gấp.
 - Vật chưa biết hình dạng nên không khóa vào một kẹp chuyên dụng. Bản đầu tiên nên hướng đến **khay đỡ có gờ thấp + cơ cấu giữ có thể thay đổi**, với các miếng đệm thay thế. Chỉ chốt cơ khí sau khi biết kích thước vật và luật thi.
-- Thiết kế cho cả sàn phẳng và bề mặt gồ ghề nhỏ; không tuyên bố vượt địa hình cho tới khi thử.
+- Thiết kế cần xem xét cả sàn phẳng và bề mặt gồ ghề nhỏ; bề mặt thi chính xác vẫn cần xác nhận. Không tuyên bố vượt địa hình cho tới khi thử.
 - Ưu tiên các mô-đun dễ thay, vít/giá đỡ tiêu chuẩn và linh kiện phổ biến; tránh đặt PCB tùy chỉnh ở giai đoạn đầu.
 
 ## Các lớp phần mềm
@@ -30,4 +31,4 @@
 - Khối lượng 500 g là **tải hữu ích**, không phải tổng khối lượng robot. Phải lập ngân sách khối lượng riêng cho thân, truyền động, nguồn, cảm biến và cơ cấu gắp.
 
 ## Chưa chốt
-Bo điều khiển, loại servo/actuator, cảm biến, hình học chân, cơ cấu gắp, nguồn, thời gian hoạt động và kích thước vật. Không mua linh kiện dựa trên tên dự án hoặc mục tiêu tải đơn lẻ; cần tính toán và rà soát trước.
+Bo điều khiển, loại servo/actuator, cảm biến, hình học chân, cơ cấu gắp, nguồn, thời gian hoạt động và kích thước vật. Mọi phương án cơ khí phải nằm trong giới hạn tổng thể 28 × 28 × 28 cm. Không mua linh kiện dựa trên tên dự án hoặc mục tiêu tải đơn lẻ; cần tính toán và rà soát trước.
