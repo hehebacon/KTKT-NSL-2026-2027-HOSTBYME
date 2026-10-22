@@ -3,7 +3,7 @@
 > **Trạng thái: khung phần mềm ban đầu, chưa phải robot sẵn sàng vận hành.** Chưa có xác nhận phần cứng, chưa nạp lên bo mạch và chưa thử tải thực tế.
 
 ## Mục tiêu đã xác định
-- Robot bốn chân, kích thước mục tiêu khoảng 28 cm; giới hạn dự án: 30 × 30 × 30 cm.
+- Robot bốn chân; giới hạn kích thước theo thông tin người dùng: **28 × 28 × 28 cm tối đa** cho toàn bộ robot, gồm thân, chân và cơ cấu gắp.
 - Mục tiêu tải hữu ích: 500 g.
 - Tự tiếp cận vật, nhặt vật từ mặt đất, đưa lên lưng và khóa tải.
 - Có kiểm tra trạng thái và dừng an toàn khi cảm biến không hợp lệ.
