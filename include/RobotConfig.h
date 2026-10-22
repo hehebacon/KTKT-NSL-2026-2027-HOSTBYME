@@ -4,7 +4,7 @@
 
 namespace RobotConfig {
 constexpr float TARGET_ENVELOPE_CM = 28.0f;
-constexpr float MAX_ENVELOPE_CM = 30.0f;
+constexpr float MAX_ENVELOPE_CM = 28.0f;
 constexpr float PAYLOAD_TARGET_G = 500.0f;
 constexpr bool HARDWARE_OUTPUTS_ENABLED = false;
 constexpr uint32_t SERIAL_BAUD = 115200;
