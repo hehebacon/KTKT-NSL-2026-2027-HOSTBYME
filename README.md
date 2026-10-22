@@ -33,3 +33,10 @@
 
 ## Build
 Khung dùng PlatformIO/Arduino framework. Board trong `platformio.ini` chỉ là cấu hình tạm; phải thay bằng đúng board đã chọn trước khi coi kết quả build là có ý nghĩa.
+
+## Tài liệu kỹ thuật
+- [Kiến trúc mô-đun và quy tắc an toàn](docs/ARCHITECTURE.md)
+- [BOM sơ bộ và nguyên tắc tiết kiệm chi phí](docs/BOM_BUDGET.md)
+- [Kế hoạch kiểm thử theo giai đoạn](docs/TEST_PLAN.md)
+- [Yêu cầu và cổng xác minh](docs/REQUIREMENTS.md)
+- [Chuỗi nhặt/khóa/mang vật](docs/PICKUP_SEQUENCE.md)
