@@ -28,7 +28,7 @@
 7. **G6 — competition rehearsal:** test the exact task course, battery condition and failure recovery.
 
 ## Pass criteria to define before testing
-- Fits within 30 × 30 × 30 cm in every required configuration.
+- Fits within 28 × 28 × 28 cm in every required configuration.
 - Payload remains secured during the defined movement test.
 - No unexpected reset, loose part, overheating or uncontrolled movement.
 - A fault/abort request returns the software to a non-actuating safe state.
